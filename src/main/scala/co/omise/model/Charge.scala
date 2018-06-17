@@ -1,0 +1,35 @@
+package co.omise.model
+
+import java.util
+
+case class Charge(
+  `object`: String,
+  id: String,
+  livemode: Boolean,
+  location: String,
+  status: String,
+  amount: Int,
+  currency: String,
+  description: String,
+  metadata: util.HashMap[String, Any],
+  capture: Boolean,
+  capturable: Boolean,
+  authorized: Boolean,
+  reversed: Boolean,
+  reversible: Boolean,
+  paid: Boolean,
+  transaction: String,
+  card: Card,
+  refundable: Boolean,
+  refunded: Int,
+  refunds: List[Refund],
+  failureCode: String,
+  failureMessage: String,
+  customer: String,
+  ip: String,
+  disputable: Boolean,
+  dispute: Dispute,
+  returnUri: String,
+  authorizeUri: String,
+  created: String,
+)
