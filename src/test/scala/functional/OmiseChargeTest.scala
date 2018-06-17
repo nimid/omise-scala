@@ -84,7 +84,7 @@ class OmiseChargeTest {
 
     val retrievedCharge = omise.charge.retrieve(charge.id)
 
-    assertEquals(retrievedCharge, charge)
+    assertEquals(retrievedCharge.id, charge.id)
   }
 
   @Test
