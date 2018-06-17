@@ -4,9 +4,9 @@
 
 ## Installation
 
-- Install using JAR file, by download JAR file to your machine and set classpath to the downloaded file.
+- Install by using JAR file, download [JAR file](https://github.com/nimid/omise-scala/releases/download/v0.1/omise-scala-v0.1.jar) to your machine and set classpath to the downloaded file.
 
-- Install using dependency management such as sbt is coming soon.
+- Install by using dependency management such as sbt is coming soon.
 
 ## Usage
 
